@@ -75,7 +75,7 @@ mybatis-plus:
 spring:
   profiles: dev
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/dubbo_cat?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+      url: jdbc:mysql://127.0.0.1:3306/dubbo_cat?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
       username: root
       password: root
       filters: log4j,wall,mergeStat
@@ -84,7 +84,7 @@ spring:
 guns:
   muti-datasource:
     default-dataSource-name: dataSourceGuns #默认的数据源名称
-    url: jdbc:mysql://127.0.0.1:3306/dubbo_cat?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/dubbo_cat?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
     username: root
     password: root
 
@@ -102,7 +102,7 @@ logging:
 spring:
   profiles: produce
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/dubbo_cat?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+      url: jdbc:mysql://127.0.0.1:3306/dubbo_cat?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
       username: root
       password: root
       filters: log4j,wall,mergeStat
