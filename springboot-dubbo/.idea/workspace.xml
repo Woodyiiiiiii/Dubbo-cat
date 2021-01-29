@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1153c42c-3ccb-4979-ba87-47aedd44f6c3" name="Default Changelist" comment="update" />
+    <list default="true" id="1153c42c-3ccb-4979-ba87-47aedd44f6c3" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/GunsRestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/SimpleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/aop/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/exception/BizExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/exception/BussinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/persistence/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/MessageConverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/properties/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/dto/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/converter/BaseTransferEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/converter/WithSignMessageConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/util/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/IReqValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/dto/Credence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/DbValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/SimpleValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/example/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/test/java/com/stylefeng/guns/GunsRestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/test/java/com/stylefeng/guns/fastjson/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/test/java/com/stylefeng/guns/generator/EntityGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/test/java/com/stylefeng/guns/jwt/DecryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/src/test/java/com/stylefeng/guns/jwt/JWTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/target/guns-rest-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guns/Solution.md" beforeDir="false" afterPath="$PROJECT_DIR$/../guns/Solution.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guns/guns/guns-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../guns/guns/guns-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guns/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../guns/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../house_applying_system1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guns/guns" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
@@ -92,6 +133,8 @@
       <workItem from="1610875645814" duration="470000" />
       <workItem from="1610884017602" duration="510000" />
       <workItem from="1610884569177" duration="51000" />
+      <workItem from="1611907782980" duration="319000" />
+      <workItem from="1611935942311" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1610876089945</created>

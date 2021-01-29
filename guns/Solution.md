@@ -26,4 +26,11 @@
 
 
 
-即使在application.yml中加入驱动也无效，可能跟mybatis有关。
+需要改动项目的MySQL连接，升级成对应的8版本。在guns-parent的xml中打开配置，找到MySQL-connector连接，引入8.0.19的jar包，即可解决。[https://blog.csdn.net/wuzhong8809/article/details/104738595](https://blog.csdn.net/wuzhong8809/article/details/104738595)
+
+
+
+除此之外还有常见的数据库连接问题([https://blog.csdn.net/IMchg/article/details/108054173](https://blog.csdn.net/IMchg/article/details/108054173))：
+
+
+
