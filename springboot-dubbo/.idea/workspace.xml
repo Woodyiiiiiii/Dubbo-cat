@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1153c42c-3ccb-4979-ba87-47aedd44f6c3" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/../guns/guns/guns-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../guns/guns/guns-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guns/guns/guns-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../guns/guns/guns-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guns/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../guns/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +100,9 @@
       <workItem from="1611907782980" duration="319000" />
       <workItem from="1611935942311" duration="743000" />
       <workItem from="1611936829130" duration="336000" />
+      <workItem from="1611937598999" duration="196000" />
+      <workItem from="1611937800469" duration="616000" />
+      <workItem from="1611984594988" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1610876089945</created>
